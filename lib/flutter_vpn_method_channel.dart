@@ -101,8 +101,8 @@ class MethodChannelFlutterVpn extends FlutterVpnPlatform {
         'Password': password,
         'Secret': '',
         'Name': name ?? server,
-        if (mtu != null) 'mtu': mtu,
-        if (port != null) 'port': port,
+        if (mtu != null) 'MTU': mtu,
+        if (port != null) 'Port': port,
       });
 
   /// Connect to VPN. (IPSec)
